@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+	background-image: url(images/new-back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 20px;
+}
+.form-div {
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+	border: 2px gray;
+	border-radius: 15px;
+	padding: 20px;
+	background: rgba(171, 200, 201, 0.15);
+}
+input, textarea, select {
+	margin: 6px;
+	border-radius: 15px;
+	border-style: solid;
+	padding: 8px;
+}
+label {
+	margin: 6px;
+}
+input[type="radio"] {
+  border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+  background-image: radial-gradient(
+    hsl(213, 73%, 50%) 40%,
+    transparent calc(40% + 1px)
+  );
+}
